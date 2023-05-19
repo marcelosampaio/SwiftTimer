@@ -8,12 +8,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
-
+    
+    @IBAction func start(_ sender: Any) {
+        print("🌴 start")
+        DeviceManager.standard.vibrate()
+    }
+    
+    @IBAction func stop(_ sender: Any) {
+        print("🌴 stop")
+        DeviceManager.standard.stopVibration()
+    }
+    
+    
+    
 }
 

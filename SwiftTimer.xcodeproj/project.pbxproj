@@ -13,6 +13,8 @@
 		2D5FB38A2A06D36A00EFC5B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5FB3882A06D36A00EFC5B3 /* Main.storyboard */; };
 		2D5FB38C2A06D36C00EFC5B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5FB38B2A06D36C00EFC5B3 /* Assets.xcassets */; };
 		2D5FB38F2A06D36C00EFC5B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5FB38D2A06D36C00EFC5B3 /* LaunchScreen.storyboard */; };
+		2D5FB3972A06D5E400EFC5B3 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FB3962A06D5E400EFC5B3 /* DeviceManager.swift */; };
+		2D5FB3992A06E09900EFC5B3 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FB3982A06E09900EFC5B3 /* Device.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2D5FB38B2A06D36C00EFC5B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D5FB38E2A06D36C00EFC5B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D5FB3902A06D36C00EFC5B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5FB3962A06D5E400EFC5B3 /* DeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+		2D5FB3982A06E09900EFC5B3 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				2D5FB3822A06D36A00EFC5B3 /* AppDelegate.swift */,
 				2D5FB3842A06D36A00EFC5B3 /* SceneDelegate.swift */,
 				2D5FB3862A06D36A00EFC5B3 /* ViewController.swift */,
+				2D5FB3962A06D5E400EFC5B3 /* DeviceManager.swift */,
+				2D5FB3982A06E09900EFC5B3 /* Device.swift */,
 				2D5FB3882A06D36A00EFC5B3 /* Main.storyboard */,
 				2D5FB38B2A06D36C00EFC5B3 /* Assets.xcassets */,
 				2D5FB38D2A06D36C00EFC5B3 /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				2D5FB3872A06D36A00EFC5B3 /* ViewController.swift in Sources */,
 				2D5FB3832A06D36A00EFC5B3 /* AppDelegate.swift in Sources */,
+				2D5FB3972A06D5E400EFC5B3 /* DeviceManager.swift in Sources */,
 				2D5FB3852A06D36A00EFC5B3 /* SceneDelegate.swift in Sources */,
+				2D5FB3992A06E09900EFC5B3 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
